@@ -9,23 +9,29 @@ import React, { Component } from 'react';
 
 export default class Projects extends Component {
     state = {
-        project: Project1
+        count: 0
       };
     project_list = [Project1,Project2,Project3,Project4]
-    count = 0
+
+    Project = Project1
+
     handleChange = () => {
-      if (this.count === 4){
-        this.count = 0
+      if (this.state.count == 3){
+        this.setState({count: 0})
       }
-      else{this.count += 1}
-      this.setState({project: this.project_list[this.count]})
-    }
+      else{this.setState({count: this.state.count + 1})
+    }}
+      
   render(){
+
+    const Project = this.project_list[this.state.count]
+    
     return (
       <div>
         Projects List
+        <Project/>
         <button id = 'next' onClick = {this.handleChange}>Next Project</button>
-        {this.state.project}
+        {}
       </div>
     );
   } 
