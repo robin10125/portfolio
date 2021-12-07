@@ -1,3 +1,4 @@
+import './Project3.css'
 export default function Project3(props){
     return(
         <div className = 'project'>
