@@ -11,7 +11,7 @@ export default class Projects extends Component {
     state = {
         count: 0
       };
-    project_list = [Project1,Project2,Project3,Project4]
+    project_list = [Project1,Project4,Project2,Project3]
 
     Project = Project1
 
@@ -28,9 +28,9 @@ export default class Projects extends Component {
     
     return (
       <div>
-        Projects List
-        <Project/>
         <button id = 'next' onClick = {this.handleChange}>Next Project</button>
+        <Project/>
+        
         {}
       </div>
     );

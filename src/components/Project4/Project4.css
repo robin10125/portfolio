@@ -1,0 +1,15 @@
+.project4{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    background-color: white;
+    
+  }
+#description4{
+    text-align: left;
+    width:65%;
+    
+    background-color: white;
+}

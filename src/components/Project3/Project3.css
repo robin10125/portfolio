@@ -1,0 +1,16 @@
+.project3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    background-color: white;
+    width:500px;
+    margin:10px;
+  }
+#description3{
+    text-align: left;
+    width:65%;
+    
+    background-color: white;
+}

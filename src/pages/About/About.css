@@ -1,0 +1,18 @@
+#about-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#bio{
+    background-color:white;
+    border: 150px solid transparent;
+    border-image: url('pngegg.png') 40% round;
+    
+    color: dimgray;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 20%;
+    
+}
